@@ -3,7 +3,7 @@ import { parseGIF, decompressFrames } from "gifuct-js";
 
 const ASCII_CHARS = "@%#*+=-:. "; // dark -> light
 const DEFAULT_WIDTH = 80;
-
+ 
 type FrameAscii = string[]; // array of lines
 
 function rgbToLum(r: number, g: number, b: number) {
